@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const uploadPage = () => {
+const UploadPage = () => {
     const [file, setFile] = useState(null);
 
     const handleFileUpload = (e) => {
@@ -19,4 +19,4 @@ const uploadPage = () => {
     );
 };
 
-export default uploadPage;
+export default UploadPage;

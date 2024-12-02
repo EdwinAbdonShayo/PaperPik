@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import homePage from "./Pages/homePage";
-import uploadPage from "./Pages/upload";
-import shopsPage from "./Pages/shops";
+import HomePage from "./Pages/homePage";
+import UploadPage from "./Pages/upload";
+import ShopsPage from "./Pages/shops";
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<homePage />} />
-        <Route path="/upload" element={<uploadPage />} />
-        <Route path="/shops" element={<shopsPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/upload" element={<UploadPage />} />
+        <Route path="/shops" element={<ShopsPage />} />
       </Routes>
     </Router>
   );
